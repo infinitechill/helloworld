@@ -4,7 +4,7 @@
    | File:               ~/apps/helloworld/helloworld.sh                   |
    | Dependencies:       gcc                                               |
    |                                                                       |
-   | hellohtml.sh                                                          |
+   | helloworld.sh                                                         |
    | -------------------------------------------------------------------   |
    |     a bash script that takes an output name and writes                |
    |     boiler-plate c++ code, and a makefile.  the program is then       |
