@@ -1,0 +1,38 @@
+  %{-----------------------------------------------------------------------+
+   | HELLO WORLD                                                           |
+   | Version: 1.0                                                          |
+   | File:               ~/apps/helloworld/helloworld.sh                   |
+   | Dependencies:       gcc                                               |
+   |                                                                       |
+   | hellohtml.sh                                                          |
+   | -------------------------------------------------------------------   |
+   |     a bash script that takes an output name and writes                |
+   |     boiler-plate c++ code, and a makefile.  the program is then       |
+   |     compiled and ran for preview.                                     |
+   |                                                                       |
+   | Setup:                                                                |
+   |                                                                       |
+   |    $ mkdir -p ~/apps/helloworld/new                                   |
+   |    $ cd helloworld (the directory this file is in)                    |
+   |    $ cp -r * ~/apps/helloworld                                        |
+   |    $ cd ~/apps/helloworld                                             |
+   |    $ chmod a+x helloworld.sh                                          |
+   |    $ ln -s ~/apps/helloworld/helloworld.sh  /usr/local/bin/helloworld |
+   |    $ echo "PATH=/usr/local/bin/:\${PATH}" >> ~/.bash_profile          |
+   |                                                                       |
+   | Uninstall:                                                            |
+   |                                                                       |
+   |    $ rm -r ~/apps/helloworld                                          |
+   |    $ rm /usr/local/bin/helloworld                                     |
+   |                                                                       |
+   | Usage:                                                                |
+   |                                                                       |
+   |    $ helloworld [outputname]                                          |
+   |                                                                       |
+   | Examples:                                                             |
+   |                                                                       |
+   |    $ helloworld cool                                                  |
+   |                                                                       |
+   | Public Domain Software -- Free to Use as You Like                     |
+   | infinitechill.net - By J. Volmer                                      |
+   +-----------------------------------------------------------------------%}
